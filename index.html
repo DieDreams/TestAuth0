@@ -1,36 +1,31 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <base target="_top">
-    <body bgcolor="#f7dacd">
-    <font face="arial" color="black" size="5">
-  </head>
-  <body>
-
-    <b>Czas użyć templatki.</b><br><br>
-
-    <!-- Create input fields to accept values from the user -->
-    Nazwa:<br>
-    <div>
-      <br>
-      <br>
-      <div align="left">
-        <label>Offense ID</label>
-        <br>
-        <input type= text id="offenseID" style="border-radius: 25px;font-size: 15px;"></input>
-      </div>
-     <div align="left">
-       <label>Data</label>
-       <br>
-       <input type= text id="time" style="border-radius: 25px;font-size: 15px;"></input>
-     </div>
-      <!-- <select id="przypadki" >
-         Tu wypełni js w zaleznosci od wybranej opcji 
-      </select> -->
-     <br>
-     <div align="center">
-       <button type="button" id="done" style="border: none; background-color: white; color: black; font-size: 15px; width: 30%; height:30px; cursor: pointer;  border-radius: 25px;" onclick= chooseTemplate() > Wykonaj </button>
-     </div>
-    </div>
-  </body>
-</html>
+<div class="container">
+	<!-- code here -->
+	<div class="card">
+		<div class="card-image">	
+			<h2 class="card-heading">
+				Get started
+				<small>Let us create your account</small>
+			</h2>
+		</div>
+		<form class="card-form">
+			<div class="input">
+				<input type="text" class="input-field" value="Alexander Parkinson" required/>
+				<label class="input-label">Full name</label>
+			</div>
+						<div class="input">
+				<input type="text" class="input-field" value="vlockn@gmail.com" required/>
+				<label class="input-label">Email</label>
+			</div>
+						<div class="input">
+				<input type="password" class="input-field" required/>
+				<label class="input-label">Password</label>
+			</div>
+			<div class="action">
+				<button class="action-button">Get started</button>
+			</div>
+		</form>
+		<div class="card-info">
+			<p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p>
+		</div>
+	</div>
+</div>
